@@ -23,7 +23,45 @@ color: <!DOCTYPE html>
 font-family: Arial, sans-serif;
 font-size: 24px;
 font-weight: bold;
-color: #333<!DOCTYPE html>
+color: #0055ff 
+padding: 10px;
+background-color: #f4f4f4;
+display: inline-block;
+border-radius: 5px;
+}
+</style>
+</head>
+<body>
+
+<h1>L'heure actuelle est :</h1>
+<div id="horloge">Chargement...</div>
+
+<script>
+function mettreAJourHeure() {
+const maintenant = new Date();
+// Récupération des heures, minutes et secondes
+let h = maintenant.getHours();
+let m = maintenant.getMinutes();
+let s = maintenant.getSeconds();
+
+// Ajout d'un zéro devant les chiffres < 10
+h = h < 10 ? "0" + h : h;
+m = m < 10 ? "0" + m : m;
+s = s < 10 ? "0" + s : s;
+
+// Affichage dans l'élément HTML
+document.getElementById("horloge").innerHTML = h + ":" + m + ":" + s;
+}
+
+// Mise à jour immédiate
+mettreAJourHeure();
+
+// Mise à jour toutes les secondes (1000 ms)
+setInterval(mettreAJourHeure, 1000);
+</script>
+
+</body>
+</html> 33<!DOCTYPE html>
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
