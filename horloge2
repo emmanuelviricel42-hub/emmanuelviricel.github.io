@@ -7,10 +7,10 @@
 /* Style simple pour la présentation */
 #horloge {
 font-family: Arial, sans-serif;
-font-size: 42px;
+font-size: 36px;
 font-weight: bold;
 color: #0055ff;
-padding: 10px;
+padding: 15px;
 background-color: #0055ff;;
 display: inline-block;
 border-radius: 5px;
@@ -19,7 +19,7 @@ border-radius: 5px;
 </head>
 <body>
 
-<h1>L'heure actuelle est :</h1>
+<h1>L'heure actuelle est peut etre ???:</h1>
 <div id="horloge">Chargement...</div>
 
 <script>
