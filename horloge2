@@ -7,7 +7,7 @@
 /* Style simple pour la présentation */
 #horloge {
 font-family: Arial, sans-serif;
-font-size: 24px;
+font-size: 42px;
 font-weight: bold;
 color: #0055ff;
 padding: 10px;
