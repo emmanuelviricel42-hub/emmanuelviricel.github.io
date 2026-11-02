@@ -9,7 +9,7 @@
 font-family: Arial, sans-serif;
 font-size: 24px;
 font-weight: bold;
-color: #666;
+color: #0055ff;
 padding: 10px;
 background-color: #f4f4f4;
 display: inline-block;
