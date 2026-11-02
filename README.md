@@ -1,23 +1,12 @@
 # emmanuelviricel.github.io
 
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
 <title>Horloge en temps réel</title>
 <style>
-/* Style simple pour la présentation */
-#horloge {
-font-family: Arial, sans-serif;
-font-size: 36px;
-font-weight: bold;
-color: <!DOCTYPE html>
-<html lang="fr">
-<head>
-<meta charset="UTF-8">
-<title>Horloge en temps réel</title>
-<style>
+
 /* Style simple pour la présentation */
 #horloge {
 font-family: Arial, sans-serif;
